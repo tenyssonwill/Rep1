@@ -10,7 +10,7 @@
 % ex. y=rms(mysignal, 30, 0, 0).  Calculate RMS with window of length 30 samples, no overlapping samples, and do not zeropad the last window
 %
 % Author: A. Bolu Ajiboye
-
+% Tenysson was here
 function y = rms(signal, windowlength, overlap, zeropad)
 
 delta = windowlength - overlap;
